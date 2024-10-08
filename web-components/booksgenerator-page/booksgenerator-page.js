@@ -6,6 +6,7 @@ export class BooksGeneratorPage {
     }
 
     async beforeRender() {
+        this.insertedText="Dummy Text"
     }
 
     async afterRender(){
