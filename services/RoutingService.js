@@ -1,7 +1,7 @@
 export class RoutingService {
     constructor() {}
     async navigateToLocation(locationArray = [], appName) {
-        const BOOKSGENERATOR_PAGE = "-page";
+        const BOOKSGENERATOR_PAGE = "booksgenerator-page";
 
        if (locationArray.length === 0 || locationArray[0] === BOOKSGENERATOR_PAGE) {
             const pageUrl = `${assistOS.space.id}/${appName}/${BOOKSGENERATOR_PAGE}`;
